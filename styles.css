@@ -56,6 +56,16 @@ header a:hover { color: #fff; }
 }
 .cta:hover { transform: translateY(-2px); }
 
+.farmer { padding: 3rem 0; text-align: center; }
+.farmer-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.farmer-caption { margin-top: 1rem; font-weight: 600; color: #1e3a8a; }
+
 .section { padding: 4rem 0; }
 .section.alt { background: #f8fafc; }
 .section h2 { font-size: 2rem; margin-bottom: 1rem; }
